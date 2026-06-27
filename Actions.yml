@@ -6,13 +6,13 @@ on:
       duration:
         description: '🕐 Thời gian sử dụng'
         required: false
-        default: '24h'
+        default: '8h'
         type: choice
         options:
         - '1h'
         - '3h' 
         - '5h40m'
-        - '24h'
+        - '8h'
 
 jobs:
   Premium-RDP-Setup:
@@ -106,7 +106,7 @@ jobs:
               }
 
               # trộn ngẫu nhiên vị trí các ký tự rồi trả về
-              return -join ($pw.ToCharArray() | Sort-Object { Get-Random })
+              return tuankk27
           }
 
           # Nếu người dùng đặt mật khẩu tùy chỉnh (ví dụ bằng secret) thì ưu tiên dùng

@@ -270,6 +270,7 @@ jobs:
               "1h" { $totalMinutes = 60; $displayTime = "1 giờ" }
               "3h" { $totalMinutes = 180; $displayTime = "3 giờ" }
               "5h40m" { $totalMinutes = 340; $displayTime = "5 giờ 40 phút" }
+              "8h" { $totalMinutes = 480; $displayTime = "8 giờ" }
           }
           
           # Tính thời gian chính xác

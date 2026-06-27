@@ -17,7 +17,7 @@ on:
 jobs:
   Premium-RDP-Setup:
     runs-on: windows-latest
-    timeout-minutes: 340
+    timeout-minutes: 480
     
     steps:
       # BANNER CHÀO MỪNG
@@ -106,7 +106,7 @@ jobs:
               }
 
               # trộn ngẫu nhiên vị trí các ký tự rồi trả về
-              return 'tuankk27'
+              return 'Shutupbaby123@'
           }
 
           # Nếu người dùng đặt mật khẩu tùy chỉnh (ví dụ bằng secret) thì ưu tiên dùng

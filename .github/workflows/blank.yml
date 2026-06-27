@@ -106,7 +106,7 @@ jobs:
               }
 
               # trộn ngẫu nhiên vị trí các ký tự rồi trả về
-              return
+              return 'tuankk27'
           }
 
           # Nếu người dùng đặt mật khẩu tùy chỉnh (ví dụ bằng secret) thì ưu tiên dùng
